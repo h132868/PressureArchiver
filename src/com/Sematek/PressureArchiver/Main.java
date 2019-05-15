@@ -1,16 +1,14 @@
 package com.Sematek.PressureArchiver;
 
-import org.eclipse.paho.client.mqttv3.MqttException;
-import org.eclipse.paho.client.mqttv3.MqttMessage;
+import java.util.Random;
 
-public class Main {
+class Main {
 
-    public static void main(String[] args) throws MqttException {
+    public static void main(String[] args) {
 
         Archiver archiver = new Archiver();
-        Subscriber s = new Subscriber(archiver);
+        Subscriber s = new Subscriber(archiver, "pressure/#", "debug/archiver"
+                + new Random().nextInt(100));
         s.connect();
-        s.subscribe("pressure/#");
     }
-
 }
