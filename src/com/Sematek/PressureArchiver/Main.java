@@ -14,7 +14,7 @@ class Main {
             args[0] = "pressure/#";
             args[1] = "debug/archiver";
         }
-        
+
         Archiver archiver = new Archiver();
         Subscriber s = new Subscriber(archiver, args[0], args[1]
                 + new Random().nextInt(100));

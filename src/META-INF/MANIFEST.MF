@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: mongodb-driver-3.10.1.jar bson-3.10.1.jar mongodb-driver-c
+ ore-3.10.1.jar gson-2.8.5.jar org.eclipse.paho.client.mqttv3-1.2.1.ja
+ r joda-time-2.10.1.jar mongo-java-driver-3.10.1.jar
+Main-Class: com.Sematek.PressureArchiver.Main
+

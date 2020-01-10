@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="PressureArchiver:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PressureArchiver_jar</output-path>
+    <root id="root">
+      <element id="archive" name="PressureArchiver.jar">
+        <element id="module-output" name="PressureArchiver" />
+      </element>
+      <element id="library" level="project" name="org.mongodb:mongodb-driver:3.10.1" />
+      <element id="library" level="project" name="com.google.code.gson:gson:2.8.5" />
+      <element id="library" level="project" name="org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.1" />
+      <element id="library" level="project" name="joda-time:joda-time:2.10.1" />
+    </root>
+  </artifact>
+</component>
